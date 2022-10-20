@@ -1,35 +1,18 @@
-# Mitigating Domain Shift in AI-Based TB Screening
-With Unsupervised Domain Adaptation
-Paper Link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9759448
-
-Requirements:
-Pytorch
-PIL
-
-Dataset Directory
-.
-├── ...
-├── domain 1      # Domain Folder (China, India etc)
-│   ├── 0         # Negative Examples
-│   ├── 1         # Positive Examples
-├── domain 2      # Domain Folder (China, India etc)
-│   ├── 0         # Negative Examples
-│   ├── 1         # Positive Examples
-└── ...
+# Mitigating Domain Shift in AI-Based TB Screening With Unsupervised Domain Adaptation
+## Published in IEEE ACCESS JOURNAL
+## Paper Link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9759448
 
 
-$ ./tree-md .
+# Library Requirements:
+* [Pytorch](./dir2)
+* [PIL](./dir2)
+
 # Dataset Directory
 
-.
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
- * [dir3](./dir3)
+ * [domain 1 : Domain Folder (China, India etc)](./dir2)
+   * [0 : Negative Examples](./dir2/file21.ext)
+   * [1 : Positive Examples](./dir2/file22.ext)
+ * [domain 2 : Domain Folder (China, India etc)](./dir2)
+   * [0 : Negative Examples](./dir2/file21.ext)
+   * [1 : Positive Examples](./dir2/file22.ext)
+ ...
