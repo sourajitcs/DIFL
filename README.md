@@ -19,7 +19,7 @@ Dataset Directory
 
 
 $ ./tree-md .
-# Project tree
+# Dataset Directory
 
 .
  * [tree-md](./tree-md)
